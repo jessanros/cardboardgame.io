@@ -1,0 +1,65 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: yellow;
+	margin: 0;  overflow: hidden
+}
+
+.button_container{
+	position: absolute;
+	left: 10px;
+}
+
+.menu_button{
+	opacity: 1;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+.disabled_menu_button{
+	opacity: 0;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	pointer-events: none;
+}
+
+.menu_indicator{
+	opacity: .5;
+	position: absolute;
+	width: 150px;
+	height: 10px;
+	top:10px;
+	left:20px;
+}
+
+.animation{
+	position: absolute;
+	overflow: hidden;
+	right: -50px;
+	top: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.toolbar{
+	position: absolute;
+	display: flex;
+	/*background: linear-gradient(to right, #3366ff, #E040FB);*/
+	width: 100%;
+	height: 50px;
+	bottom:23px;
+}
+
+.canvas{
+	background-color: white;
+	/*background-repeat:repeat;*/
+	/*background-image: url(../icons_spin/pizza.jpg);*/
+	background-size: 860px 1200px;
+	position:absolute;
+	top:0px;
+	height: 100%;
+	width: 100%;
+	border: 1px solid black;
+}

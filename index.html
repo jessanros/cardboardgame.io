@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cardboard game!</title>
+	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+	<meta name="viewport" content="width = device-width, initial-scale = 1, maximum-scale=1.0, user-scalable=0">
+	<meta name="mobile-web-app-capable" content="yes">
+</head>
+
+<body>
+	<div id="sampleApp" ng-app="sampleApp" ng-view style="
+	position:absolute;
+	background: linear-gradient(to right, #3366ff, #E040FB);
+	top:-10px;
+	left:-10px;
+	width: calc(100% + 10px);
+	height: calc(100% + 10px);
+	overflow: hidden
+	">
+</div>
+
+
+</body>
+
+
+<script type="text/javascript" src="scripts/pinch-zoom_umd.js"></script>
+<script type="text/javascript" src="scripts/pinch-zoom_umd2.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.13/dist/sweetalert2.all.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+<script src="scripts/app.js"></script>
+
+</body>
+</html>
